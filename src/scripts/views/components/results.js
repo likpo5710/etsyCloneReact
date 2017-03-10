@@ -25,10 +25,10 @@ var Listing = React.createClass({
 		console.log(this)
 		return (
 				<a href={`#details/${this.props.model.get('listing_id')}`}>
-				<div className="itemContainer">
-                	<img className="image" src={this.props.model.get('Images')[0].url_170x135}/>
-     				<div className="title">{this.props.model.get('title')}</div>
-     				<div className="price">{'$'}{this.props.model.get('price')}</div>
+					<div className="itemContainer">
+                		<img className="image" src={this.props.model.get('Images')[0].url_170x135}/>
+     					<div className="title">{this.props.model.get('title')}</div>
+     					<div className="price">{'$'}{this.props.model.get('price')}</div>
      				</div>
             	</a>
             	
